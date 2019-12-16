@@ -5,5 +5,5 @@ while array[counter] do
   puts array[counter] ** 2
   counter +=1
 end
-return array
+return array[counter]
 end
