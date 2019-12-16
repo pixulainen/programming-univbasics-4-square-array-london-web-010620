@@ -4,5 +4,5 @@ while array[counter] do
   array[counter] ** 2
   counter +=1
 end
-puts array.join(",")
+puts array.join(",").split(" ")
 end
