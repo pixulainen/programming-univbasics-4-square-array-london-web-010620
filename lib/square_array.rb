@@ -1,6 +1,8 @@
 def square_array(array)
-  counter = 0
-  while array(counter)
+  i = 0
+  while array(i) do
+    
+  
 end
 
 while pets[counter] do
