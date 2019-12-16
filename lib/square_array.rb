@@ -2,8 +2,8 @@ def square_array(array)
   counter = 0
  
   while array[counter] do
-    puts array[counter] ** 2 
+     array[counter] ** 2 
     counter += 1
   end
-  return array.join(" ")
+  puts array.join(",")
 end
