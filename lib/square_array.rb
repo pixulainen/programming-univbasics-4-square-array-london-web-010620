@@ -1,11 +1,9 @@
 def square_array(array)
   i = 0
-  while array(i) do
-    
-  
-end
-
-while pets[counter] do
-  puts pets[counter]
-  counter += 1
+  square_array =[]
+  while i<array.length do
+    array[i] ** array[i]
+    i+=1
+  end
+  return array
 end
